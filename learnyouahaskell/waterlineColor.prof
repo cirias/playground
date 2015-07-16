@@ -1,0 +1,210 @@
+	Fri Jun 19 17:04 2015 Time and Allocation Profiling Report  (Final)
+
+	   waterlineColor +RTS -pa -RTS /Users/sirius/Downloads/task7/data5.in
+
+	total time  =        0.46 secs   (462 ticks @ 1000 us, 1 processor)
+	total alloc = 646,164,104 bytes  (excludes profiling overheads)
+
+COST CENTRE                          MODULE                       %time %alloc  ticks     bytes
+
+color.newColor                       Main                          35.7   45.0    165 290945088
+GC                                   GC                            30.7    0.0    142      1112
+main.matrix                          Main                           3.2    2.6     15  16709832
+rmdups                               Main                           3.2    4.3     15  28057864
+color                                Main                           2.8    0.7     13   4576776
+color.getColor                       Main                           2.6    0.1     12    881024
+color.coloredAdjacents.\             Main                           2.4    0.4     11   2601792
+color.coloredAdjacents.valid.xSize   Main                           2.4    0.1     11    583584
+color.setColor.(...)                 Main                           2.2    4.3     10  27885624
+color.coloredAdjacents.valid         Main                           2.2    1.4     10   8794832
+color.setColor                       Main                           1.9    4.6      9  29961000
+color.setColor.(...)                 Main                           1.9    4.6      9  29713976
+color.coloredAdjacents.valid.ySize   Main                           1.7    0.2      8   1452000
+SYSTEM                               SYSTEM                         1.5   27.7      7 178729648
+adjacents                            Main                           1.1    0.8      5   5029280
+color.coloredAdjacents               Main                           0.9    0.5      4   3501168
+adjacents.directions                 Main                           0.6    0.3      3   1775040
+main                                 Main                           0.4    0.0      2    246992
+findWaterLine.countIsland.positions  Main                           0.4    1.1      2   7374528
+OVERHEAD_of                          PROFILING                      0.2    0.0      1         0
+findWaterLine.waterLines             Main                           0.2    0.0      1    141272
+findWaterLine.countIsland            Main                           0.2    0.4      1   2548080
+findWaterLine.countIsland.coloredMap Main                           0.2    0.3      1   1800432
+color.newMap                         Main                           0.2    0.0      1         0
+color.setColor.tailNums              Main                           0.2    0.0      1         0
+adjacents.directions.\               Main                           0.2    0.0      1    147920
+adjacents.directions.\               Main                           0.2    0.0      1    147920
+adjacents.directions.\               Main                           0.2    0.0      1    147920
+IDLE                                 IDLE                           0.0    0.0      0         0
+PINNED                               SYSTEM                         0.0    0.0      0         0
+DONT_CARE                            MAIN                           0.0    0.0      0         0
+MAIN                                 MAIN                           0.0    0.0      0       520
+CAF                                  GHC.Integer.Type               0.0    0.0      0         0
+CAF                                  GHC.Event.TimerManager         0.0    0.0      0         0
+CAF                                  GHC.Event.Thread               0.0    0.0      0         0
+CAF                                  GHC.Event.Poll                 0.0    0.0      0         0
+CAF                                  GHC.Event.PSQ                  0.0    0.0      0         0
+CAF                                  GHC.Event.Manager              0.0    0.0      0         0
+CAF                                  GHC.Event.KQueue               0.0    0.0      0         0
+CAF                                  GHC.Event.Internal             0.0    0.0      0         0
+CAF                                  GHC.Event.Control              0.0    0.0      0         0
+CAF                                  GHC.Event.Array                0.0    0.0      0         0
+CAF                                  Text.Read.Lex                  0.0    0.0      0      2120
+CAF                                  Text.Read                      0.0    0.0      0         0
+CAF                                  Text.ParserCombinators.ReadP   0.0    0.0      0         0
+CAF                                  System.Posix.Internals         0.0    0.0      0         0
+CAF                                  GHC.TopHandler                 0.0    0.0      0         0
+CAF                                  GHC.Read                       0.0    0.0      0         0
+CAF                                  GHC.List                       0.0    0.0      0         0
+CAF                                  GHC.IO.Handle.Types            0.0    0.0      0         0
+CAF                                  GHC.IO.Handle.Text             0.0    0.0      0         0
+CAF                                  GHC.IO.Handle.Internals        0.0    0.0      0         0
+CAF                                  GHC.IO.Handle.FD               0.0    0.0      0     34480
+CAF                                  GHC.IO.Handle                  0.0    0.0      0         0
+CAF                                  GHC.IO.FD                      0.0    0.0      0        16
+CAF                                  GHC.IO.Exception               0.0    0.0      0         0
+CAF                                  GHC.IO.Encoding.UTF8           0.0    0.0      0         0
+CAF                                  GHC.IO.Encoding.UTF32          0.0    0.0      0         0
+CAF                                  GHC.IO.Encoding.UTF16          0.0    0.0      0         0
+CAF                                  GHC.IO.Encoding.Iconv          0.0    0.0      0       232
+CAF                                  GHC.IO.Encoding.Failure        0.0    0.0      0         0
+CAF                                  GHC.IO.Encoding                0.0    0.0      0      3280
+CAF                                  GHC.IO                         0.0    0.0      0         0
+CAF                                  GHC.ForeignPtr                 0.0    0.0      0         0
+CAF                                  GHC.Exception                  0.0    0.0      0         0
+CAF                                  GHC.Err                        0.0    0.0      0         0
+CAF                                  GHC.Enum                       0.0    0.0      0         0
+CAF                                  GHC.Conc.Sync                  0.0    0.0      0         0
+CAF                                  GHC.Conc.Signal                0.0    0.0      0       656
+CAF                                  GHC.Arr                        0.0    0.0      0         0
+CAF                                  Foreign.Marshal.Alloc          0.0    0.0      0         0
+CAF                                  Data.Typeable.Internal         0.0    0.0      0         0
+CAF                                  Data.List                      0.0    0.0      0         0
+CAF                                  Control.Exception.Base         0.0    0.0      0         0
+main.maxIslands                      Main                           0.0    0.0      0         0
+main.rows                            Main                           0.0    0.1      0    669000
+findWaterLine                        Main                           0.0    0.0      0      2352
+findWaterLine.countIsland.initMap    Main                           0.0    0.0      0    100944
+findWaterLine.countIsland.xSize      Main                           0.0    0.0      0       288
+findWaterLine.countIsland.ySize      Main                           0.0    0.0      0       720
+color.differentColoredAdjacents      Main                           0.0    0.0      0    284160
+color.differentColoredAdjacents.\    Main                           0.0    0.1      0    379424
+color.minColor                       Main                           0.0    0.1      0    538592
+color.minColor.\                     Main                           0.0    0.0      0    244352
+color.setColor.num                   Main                           0.0    0.0      0         0
+color.setColor.headNums              Main                           0.0    0.0      0         0
+color.setColor.tailRows              Main                           0.0    0.0      0         0
+color.setColor.row                   Main                           0.0    0.0      0         0
+color.setColor.headRows              Main                           0.0    0.0      0         0
+adjacents.\                          Main                           0.0    0.0      0         0
+adjacents.directions.\               Main                           0.0    0.0      0    147920
+CAF                                  Main                           0.0    0.0      0       344
+
+
+                                                                                              individual     inherited
+COST CENTRE                                  MODULE                         no.     entries  %time %alloc   %time %alloc  ticks     bytes
+
+MAIN                                         MAIN                            50           0    0.0    0.0   100.0  100.0      0       520
+ main                                        Main                           153           0    0.0    0.0     0.0    0.0      0        24
+ CAF                                         Main                            99           0    0.0    0.0    67.5   72.3      0       344
+  main                                       Main                           100           1    0.4    0.0    67.5   72.3      2    246968
+   main.rows                                 Main                           106           1    0.0    0.1     0.0    0.1      0    669000
+   main.matrix                               Main                           105           1    3.2    2.6     3.2    2.6     15  16709832
+   main.maxIslands                           Main                           101           1    0.0    0.0    63.9   69.6      0         0
+    findWaterLine                            Main                           102           1    0.0    0.0    63.9   69.6      0      2352
+     findWaterLine.countIsland               Main                           107          18    0.2    0.4    63.2   69.3      1   2548080
+      findWaterLine.countIsland.initMap      Main                           124          18    0.0    0.0     0.0    0.0      0    100944
+      findWaterLine.countIsland.ySize        Main                           112          18    0.0    0.0     0.0    0.0      0       720
+      findWaterLine.countIsland.xSize        Main                           111          18    0.0    0.0     0.0    0.0      0       288
+      findWaterLine.countIsland.positions    Main                           110          18    0.4    1.1     0.4    1.1      2   7374528
+      findWaterLine.countIsland.coloredMap   Main                           109          18    0.2    0.3    59.7   63.7      1   1800432
+       color                                 Main                           113       46629    2.8    0.7    59.5   63.4     13   4576776
+        color.newMap                         Main                           142        8039    0.2    0.0     5.2   11.8      1         0
+         color.setColor                      Main                           143        8039    1.7    4.0     5.0   11.8      8  26110432
+          color.setColor.tailNums            Main                           150        8039    0.0    0.0     0.0    0.0      0         0
+          color.setColor.row                 Main                           149        8039    0.0    0.0     0.0    0.0      0         0
+          color.setColor.(...)               Main                           148        8039    1.7    3.8     1.7    3.8      8  24308648
+          color.setColor.headNums            Main                           147        8039    0.0    0.0     0.0    0.0      0         0
+          color.setColor.tailRows            Main                           146        8039    0.0    0.0     0.0    0.0      0         0
+          color.setColor.(...)               Main                           145        8039    1.5    4.0     1.5    4.0      7  25909288
+          color.setColor.headRows            Main                           144        8039    0.0    0.0     0.0    0.0      0         0
+        color.minColor                       Main                           140        8039    0.0    0.1     1.7    0.2      0    538592
+         color.minColor.\                    Main                           151        3818    0.0    0.0     1.1    0.1      0    244352
+          color.getColor                     Main                           152        7636    1.1    0.0     1.1    0.0      5    244352
+         color.getColor                      Main                           141        8039    0.6    0.0     0.6    0.0      3    257248
+        color.differentColoredAdjacents      Main                           137        8039    0.0    0.0     0.9    0.2      0    284160
+         color.differentColoredAdjacents.\   Main                           138       11857    0.0    0.1     0.9    0.1      0    379424
+          color.getColor                     Main                           139       11857    0.9    0.1     0.9    0.1      4    379424
+        color.newColor                       Main                           136        1206   35.7   45.0    35.7   45.0    165 290945088
+        color.setColor                       Main                           128        1206    0.2    0.6     1.3    1.7      1   3850568
+         color.setColor.tailNums             Main                           135        1206    0.2    0.0     0.2    0.0      1         0
+         color.setColor.row                  Main                           134        1206    0.0    0.0     0.0    0.0      0         0
+         color.setColor.(...)                Main                           133        1206    0.4    0.6     0.4    0.6      2   3576976
+         color.setColor.headNums             Main                           132        1206    0.0    0.0     0.0    0.0      0         0
+         color.setColor.tailRows             Main                           131        1206    0.0    0.0     0.0    0.0      0         0
+         color.setColor.(...)                Main                           130        1206    0.4    0.6     0.4    0.6      2   3804688
+         color.setColor.headRows             Main                           129        1206    0.0    0.0     0.0    0.0      0         0
+        color.coloredAdjacents               Main                           114        9245    0.9    0.5    11.9    3.8      4   3501168
+         color.coloredAdjacents.\            Main                           126       36136    2.4    0.4     2.4    0.4     11   2601792
+         color.coloredAdjacents.valid        Main                           117       36980    2.2    1.4     6.3    1.7     10   8794832
+          color.coloredAdjacents.valid.ySize Main                           125       36300    1.7    0.2     1.7    0.2      8   1452000
+          color.coloredAdjacents.valid.xSize Main                           121       36474    2.4    0.1     2.4    0.1     11    583584
+         adjacents                           Main                           115        9245    1.1    0.8     2.4    1.1      5   5029280
+          adjacents.\                        Main                           118       36980    0.0    0.0     1.3    0.4      0         0
+           adjacents.directions              Main                           119           0    0.6    0.3     1.3    0.4      3   1775040
+            adjacents.directions.\           Main                           127        9245    0.2    0.0     0.2    0.0      1    147920
+            adjacents.directions.\           Main                           123        9245    0.0    0.0     0.0    0.0      0    147920
+            adjacents.directions.\           Main                           122        9245    0.2    0.0     0.2    0.0      1    147920
+            adjacents.directions.\           Main                           120        9245    0.2    0.0     0.2    0.0      1    147920
+          adjacents.directions               Main                           116        9245    0.0    0.0     0.0    0.0      0         0
+      rmdups                                 Main                           108          18    2.8    4.0     2.8    4.0     13  25909536
+     findWaterLine.waterLines                Main                           103           1    0.2    0.0     0.6    0.4      1    141272
+      rmdups                                 Main                           104           1    0.4    0.3     0.4    0.3      2   2148328
+ CAF                                         Control.Exception.Base          98           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         Data.List                       97           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         Data.Typeable.Internal          96           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         Foreign.Marshal.Alloc           95           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Arr                         94           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Conc.Signal                 93           0    0.0    0.0     0.0    0.0      0       656
+ CAF                                         GHC.Conc.Sync                   92           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Enum                        91           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Err                         90           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Exception                   89           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.ForeignPtr                  88           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO                          87           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Encoding                 86           0    0.0    0.0     0.0    0.0      0      3280
+ CAF                                         GHC.IO.Encoding.Failure         85           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Encoding.Iconv           84           0    0.0    0.0     0.0    0.0      0       232
+ CAF                                         GHC.IO.Encoding.UTF16           83           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Encoding.UTF32           82           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Encoding.UTF8            81           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Exception                80           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.FD                       79           0    0.0    0.0     0.0    0.0      0        16
+ CAF                                         GHC.IO.Handle                   78           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Handle.FD                77           0    0.0    0.0     0.0    0.0      0     34480
+ CAF                                         GHC.IO.Handle.Internals         76           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Handle.Text              75           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.IO.Handle.Types             74           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.List                        73           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Read                        72           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.TopHandler                  71           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         System.Posix.Internals          70           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         Text.ParserCombinators.ReadP    69           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         Text.Read                       68           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         Text.Read.Lex                   67           0    0.0    0.0     0.0    0.0      0      2120
+ CAF                                         GHC.Event.Array                 66           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.Control               65           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.Internal              64           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.KQueue                63           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.Manager               62           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.PSQ                   61           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.Poll                  60           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.Thread                59           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Event.TimerManager          58           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                         GHC.Integer.Type                57           0    0.0    0.0     0.0    0.0      0         0
+ SYSTEM                                      SYSTEM                          56           0    1.5   27.7     1.5   27.7      7 178729648
+ GC                                          GC                              55           0   30.7    0.0    30.7    0.0    142      1112
+ OVERHEAD_of                                 PROFILING                       54           0    0.2    0.0     0.2    0.0      1         0
+ DONT_CARE                                   MAIN                            53           0    0.0    0.0     0.0    0.0      0         0
+ PINNED                                      SYSTEM                          52           0    0.0    0.0     0.0    0.0      0         0
+ IDLE                                        IDLE                            51           0    0.0    0.0     0.0    0.0      0         0

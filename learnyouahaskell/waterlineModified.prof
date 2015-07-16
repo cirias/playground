@@ -1,0 +1,182 @@
+	Fri Jun 19 17:04 2015 Time and Allocation Profiling Report  (Final)
+
+	   waterlineModified +RTS -pa -RTS /Users/sirius/Downloads/task7/data4.in
+
+	total time  =        0.09 secs   (85 ticks @ 1000 us, 1 processor)
+	total alloc = 158,808,064 bytes  (excludes profiling overheads)
+
+COST CENTRE                                        MODULE                       %time %alloc  ticks     bytes
+
+isAdjacent                                         Main                          48.2   79.5     41 126309392
+findOneAdjacent.(...)                              Main                          16.5   13.6     14  21570456
+GC                                                 GC                            15.3    0.0     13      1112
+main.matrix                                        Main                           3.5    1.7      3   2693776
+SYSTEM                                             SYSTEM                         2.4    0.0      2     34736
+main                                               Main                           2.4    0.0      2     72472
+findWaterLine.countIsland.abovePositions.points.\  Main                           2.4    0.2      2    345600
+findWaterLine.countIsland.abovePositions.positions Main                           2.4    1.2      2   1834272
+CAF                                                Text.Read.Lex                  1.2    0.0      1      2120
+CAF                                                GHC.IO.Encoding                1.2    0.0      1      3280
+findWaterLine.waterLines                           Main                           1.2    0.0      1     48088
+findWaterLine.countIsland.abovePositions.\         Main                           1.2    0.0      1         0
+findAdjacents                                      Main                           1.2    0.9      1   1402064
+CAF                                                Main                           1.2    0.0      1       344
+IDLE                                               IDLE                           0.0    0.0      0         0
+PINNED                                             SYSTEM                         0.0    0.0      0         0
+DONT_CARE                                          MAIN                           0.0    0.0      0         0
+OVERHEAD_of                                        PROFILING                      0.0    0.0      0         0
+MAIN                                               MAIN                           0.0    0.0      0       520
+CAF                                                GHC.Integer.Type               0.0    0.0      0         0
+CAF                                                GHC.Event.TimerManager         0.0    0.0      0         0
+CAF                                                GHC.Event.Thread               0.0    0.0      0         0
+CAF                                                GHC.Event.Poll                 0.0    0.0      0         0
+CAF                                                GHC.Event.PSQ                  0.0    0.0      0         0
+CAF                                                GHC.Event.Manager              0.0    0.0      0         0
+CAF                                                GHC.Event.KQueue               0.0    0.0      0         0
+CAF                                                GHC.Event.Internal             0.0    0.0      0         0
+CAF                                                GHC.Event.Control              0.0    0.0      0         0
+CAF                                                GHC.Event.Array                0.0    0.0      0         0
+CAF                                                Text.Read                      0.0    0.0      0         0
+CAF                                                Text.ParserCombinators.ReadP   0.0    0.0      0         0
+CAF                                                System.Posix.Internals         0.0    0.0      0         0
+CAF                                                GHC.TopHandler                 0.0    0.0      0         0
+CAF                                                GHC.Read                       0.0    0.0      0         0
+CAF                                                GHC.List                       0.0    0.0      0         0
+CAF                                                GHC.IO.Handle.Types            0.0    0.0      0         0
+CAF                                                GHC.IO.Handle.Text             0.0    0.0      0         0
+CAF                                                GHC.IO.Handle.Internals        0.0    0.0      0         0
+CAF                                                GHC.IO.Handle.FD               0.0    0.0      0     34480
+CAF                                                GHC.IO.Handle                  0.0    0.0      0         0
+CAF                                                GHC.IO.FD                      0.0    0.0      0        16
+CAF                                                GHC.IO.Exception               0.0    0.0      0         0
+CAF                                                GHC.IO.Encoding.UTF8           0.0    0.0      0         0
+CAF                                                GHC.IO.Encoding.UTF32          0.0    0.0      0         0
+CAF                                                GHC.IO.Encoding.UTF16          0.0    0.0      0         0
+CAF                                                GHC.IO.Encoding.Iconv          0.0    0.0      0       232
+CAF                                                GHC.IO.Encoding.Failure        0.0    0.0      0         0
+CAF                                                GHC.IO                         0.0    0.0      0         0
+CAF                                                GHC.ForeignPtr                 0.0    0.0      0         0
+CAF                                                GHC.Exception                  0.0    0.0      0         0
+CAF                                                GHC.Err                        0.0    0.0      0         0
+CAF                                                GHC.Enum                       0.0    0.0      0         0
+CAF                                                GHC.Conc.Sync                  0.0    0.0      0         0
+CAF                                                GHC.Conc.Signal                0.0    0.0      0       656
+CAF                                                GHC.Arr                        0.0    0.0      0         0
+CAF                                                Foreign.Marshal.Alloc          0.0    0.0      0         0
+CAF                                                Data.Typeable.Internal         0.0    0.0      0         0
+CAF                                                Data.List                      0.0    0.0      0         0
+CAF                                                Control.Exception.Base         0.0    0.0      0         0
+main.maxIslands                                    Main                           0.0    0.0      0         0
+main.rows                                          Main                           0.0    0.1      0    116456
+findWaterLine                                      Main                           0.0    0.0      0      3504
+findWaterLine.countIsland                          Main                           0.0    0.0      0      2160
+findWaterLine.countIsland.abovePositions           Main                           0.0    0.2      0    347160
+findWaterLine.countIsland.abovePositions.\         Main                           0.0    0.0      0         0
+findWaterLine.countIsland.abovePositions.points    Main                           0.0    1.1      0   1728432
+findWaterLine.countIsland.abovePositions.xSize     Main                           0.0    0.0      0       432
+findWaterLine.countIsland.abovePositions.ySize     Main                           0.0    0.0      0      1080
+rmdups                                             Main                           0.0    0.3      0    528408
+findClusters                                       Main                           0.0    0.0      0     44144
+findClusters.rest                                  Main                           0.0    0.0      0         0
+findClusters.cluster                               Main                           0.0    0.0      0         0
+findClusters.(...)                                 Main                           0.0    0.0      0     11392
+findAdjacents.rs                                   Main                           0.0    0.0      0         0
+findAdjacents.ads                                  Main                           0.0    0.0      0         0
+findAdjacents.(...)                                Main                           0.0    0.1      0    118976
+findAdjacents.rst                                  Main                           0.0    0.0      0         0
+findAdjacents.as                                   Main                           0.0    0.0      0         0
+findAdjacents.(...)                                Main                           0.0    0.1      0    118976
+findAdjacents.rest                                 Main                           0.0    0.0      0         0
+findAdjacents.a                                    Main                           0.0    0.0      0         0
+findAdjacents.(...)                                Main                           0.0    0.0      0         0
+findOneAdjacent                                    Main                           0.0    0.9      0   1433328
+findOneAdjacent.rest                               Main                           0.0    0.0      0         0
+findOneAdjacent.head                               Main                           0.0    0.0      0         0
+
+
+                                                                                                           individual     inherited
+COST CENTRE                                               MODULE                         no.     entries  %time %alloc   %time %alloc  ticks     bytes
+
+MAIN                                                      MAIN                            50           0    0.0    0.0   100.0  100.0      0       520
+ main                                                     Main                           132           0    0.0    0.0     0.0    0.0      0        24
+ CAF                                                      Main                            99           0    1.2    0.0    80.0  100.0      1       344
+  main                                                    Main                           100           1    2.4    0.0    78.8  100.0      2     72448
+   main.rows                                              Main                           106           1    0.0    0.1     0.0    0.1      0    116456
+   main.matrix                                            Main                           105           1    3.5    1.7     3.5    1.7      3   2693776
+   main.maxIslands                                        Main                           101           1    0.0    0.0    72.9   98.1      0         0
+    findWaterLine                                         Main                           102           1    0.0    0.0    72.9   98.1      0      3504
+     findWaterLine.countIsland                            Main                           107          27    0.0    0.0    71.8   97.8      0      2160
+      findWaterLine.countIsland.abovePositions            Main                           109          27    0.0    0.2     5.9    2.7      0    347160
+       findWaterLine.countIsland.abovePositions.\         Main                           125        2036    0.0    0.0     0.0    0.0      0         0
+       findWaterLine.countIsland.abovePositions.\         Main                           115       10800    1.2    0.0     1.2    0.0      1         0
+       findWaterLine.countIsland.abovePositions.ySize     Main                           113          27    0.0    0.0     0.0    0.0      0      1080
+       findWaterLine.countIsland.abovePositions.xSize     Main                           112          27    0.0    0.0     0.0    0.0      0       432
+       findWaterLine.countIsland.abovePositions.positions Main                           111          27    2.4    1.2     2.4    1.2      2   1834272
+       findWaterLine.countIsland.abovePositions.points    Main                           110          27    0.0    1.1     2.4    1.3      0   1728432
+        findWaterLine.countIsland.abovePositions.points.\ Main                           114       10800    2.4    0.2     2.4    0.2      2    345600
+      findClusters                                        Main                           108         205    0.0    0.0    65.9   95.1      0     44144
+       findClusters.(...)                                 Main                           117         178    0.0    0.0    65.9   95.1      0     11392
+        findAdjacents                                     Main                           118        3896    1.2    0.9    65.9   95.1      1   1402064
+         findAdjacents.rest                               Main                           130        1859    0.0    0.0     0.0    0.0      0         0
+         findAdjacents.(...)                              Main                           129        1859    0.0    0.1     0.0    0.1      0    118976
+         findAdjacents.rst                                Main                           128        1859    0.0    0.0     0.0    0.0      0         0
+         findAdjacents.(...)                              Main                           127        1859    0.0    0.1     0.0    0.1      0    118976
+         findAdjacents.rs                                 Main                           126        1859    0.0    0.0     0.0    0.0      0         0
+         findAdjacents.(...)                              Main                           120        3603    0.0    0.0    64.7   94.0      0         0
+          findOneAdjacent                                 Main                           121        3603    0.0    0.9    64.7   94.0      0   1433328
+           findOneAdjacent.head                           Main                           131        1859    0.0    0.0     0.0    0.0      0         0
+           findOneAdjacent.(...)                          Main                           123        3603   16.5   13.6    64.7   93.1     14  21570456
+            isAdjacent                                    Main                           124      133240   48.2   79.5    48.2   79.5     41 126309392
+           findOneAdjacent.rest                           Main                           122        3603    0.0    0.0     0.0    0.0      0         0
+         findAdjacents.a                                  Main                           119        3603    0.0    0.0     0.0    0.0      0         0
+       findClusters.rest                                  Main                           116         178    0.0    0.0     0.0    0.0      0         0
+     findWaterLine.waterLines                             Main                           103           1    1.2    0.0     1.2    0.4      1     48088
+      rmdups                                              Main                           104           2    0.0    0.3     0.0    0.3      0    528408
+ CAF                                                      Control.Exception.Base          98           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      Data.List                       97           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      Data.Typeable.Internal          96           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      Foreign.Marshal.Alloc           95           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Arr                         94           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Conc.Signal                 93           0    0.0    0.0     0.0    0.0      0       656
+ CAF                                                      GHC.Conc.Sync                   92           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Enum                        91           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Err                         90           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Exception                   89           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.ForeignPtr                  88           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO                          87           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Encoding                 86           0    1.2    0.0     1.2    0.0      1      3280
+ CAF                                                      GHC.IO.Encoding.Failure         85           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Encoding.Iconv           84           0    0.0    0.0     0.0    0.0      0       232
+ CAF                                                      GHC.IO.Encoding.UTF16           83           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Encoding.UTF32           82           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Encoding.UTF8            81           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Exception                80           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.FD                       79           0    0.0    0.0     0.0    0.0      0        16
+ CAF                                                      GHC.IO.Handle                   78           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Handle.FD                77           0    0.0    0.0     0.0    0.0      0     34480
+ CAF                                                      GHC.IO.Handle.Internals         76           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Handle.Text              75           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.IO.Handle.Types             74           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.List                        73           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Read                        72           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.TopHandler                  71           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      System.Posix.Internals          70           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      Text.ParserCombinators.ReadP    69           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      Text.Read                       68           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      Text.Read.Lex                   67           0    1.2    0.0     1.2    0.0      1      2120
+ CAF                                                      GHC.Event.Array                 66           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.Control               65           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.Internal              64           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.KQueue                63           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.Manager               62           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.PSQ                   61           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.Poll                  60           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.Thread                59           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Event.TimerManager          58           0    0.0    0.0     0.0    0.0      0         0
+ CAF                                                      GHC.Integer.Type                57           0    0.0    0.0     0.0    0.0      0         0
+ SYSTEM                                                   SYSTEM                          56           0    2.4    0.0     2.4    0.0      2     34736
+ GC                                                       GC                              55           0   15.3    0.0    15.3    0.0     13      1112
+ OVERHEAD_of                                              PROFILING                       54           0    0.0    0.0     0.0    0.0      0         0
+ DONT_CARE                                                MAIN                            53           0    0.0    0.0     0.0    0.0      0         0
+ PINNED                                                   SYSTEM                          52           0    0.0    0.0     0.0    0.0      0         0
+ IDLE                                                     IDLE                            51           0    0.0    0.0     0.0    0.0      0         0
