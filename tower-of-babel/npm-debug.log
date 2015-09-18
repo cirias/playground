@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'tower-of-babel',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose cache add [ 'tower-of-babel', null ]
+5 verbose cache add name=undefined spec="tower-of-babel" args=["tower-of-babel",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'tower-of-babel',
+6 verbose parsed url   path: 'tower-of-babel',
+6 verbose parsed url   href: 'tower-of-babel' }
+7 silly lockFile b94d7c1d-tower-of-babel tower-of-babel
+8 verbose lock tower-of-babel /home/sirius/.npm/b94d7c1d-tower-of-babel.lock
+9 silly lockFile b94d7c1d-tower-of-babel tower-of-babel
+10 silly lockFile b94d7c1d-tower-of-babel tower-of-babel
+11 verbose addNamed [ 'tower-of-babel', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 01e5dc10-tower-of-babel tower-of-babel@
+14 verbose lock tower-of-babel@ /home/sirius/.npm/01e5dc10-tower-of-babel.lock
+15 silly addNameRange { name: 'tower-of-babel', range: '*', hasData: false }
+16 verbose request where is /tower-of-babel
+17 verbose request registry http://registry.tradesparq.com:4873/
+18 verbose request id 7854e404c9331deb
+19 verbose url raw /tower-of-babel
+20 verbose url resolving [ 'http://registry.tradesparq.com:4873/', './tower-of-babel' ]
+21 verbose url resolved http://registry.tradesparq.com:4873/tower-of-babel
+22 verbose request where is http://registry.tradesparq.com:4873/tower-of-babel
+23 info trying registry request attempt 1 at 16:54:16
+24 verbose etag "a94002c38e4a6506d0d3ad6d8cc48d9a"
+25 http GET http://registry.tradesparq.com:4873/tower-of-babel
+26 http 200 http://registry.tradesparq.com:4873/tower-of-babel
+27 silly registry.get cb [ 200,
+27 silly registry.get   { 'x-powered-by': 'Sinopia/0.8.1',
+27 silly registry.get     'content-type': 'application/json; charset=utf-8',
+27 silly registry.get     etag: '"6b758548199b584100c53a72bfbdd727"',
+27 silly registry.get     vary: 'Accept-Encoding',
+27 silly registry.get     'content-encoding': 'gzip',
+27 silly registry.get     'x-status-cat': 'http://flic.kr/p/aVuVsF',
+27 silly registry.get     date: 'Thu, 17 Sep 2015 08:37:35 GMT',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'transfer-encoding': 'chunked' } ]
+28 silly addNameRange number 2 { name: 'tower-of-babel', range: '*', hasData: true }
+29 silly addNameRange versions [ 'tower-of-babel',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.4.2',
+29 silly addNameRange     '0.4.3',
+29 silly addNameRange     '0.4.4',
+29 silly addNameRange     '0.5.0' ] ]
+30 verbose addNamed [ 'tower-of-babel', '0.5.0' ]
+31 verbose addNamed [ '0.5.0', '0.5.0' ]
+32 silly lockFile 3bfef38b-tower-of-babel-0-5-0 tower-of-babel@0.5.0
+33 verbose lock tower-of-babel@0.5.0 /home/sirius/.npm/3bfef38b-tower-of-babel-0-5-0.lock
+34 silly lockFile 219e4117-f-babel-tower-of-babel-0-5-0-tgz http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz
+35 verbose lock http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz /home/sirius/.npm/219e4117-f-babel-tower-of-babel-0-5-0-tgz.lock
+36 verbose addRemoteTarball [ 'http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz',
+36 verbose addRemoteTarball   '43b79628ee85ade94940a0870ed016669b6f93f7' ]
+37 info retry fetch attempt 1 at 16:54:17
+38 verbose fetch to= /tmp/npm-13334-ZJO-Dxks/registry.tradesparq.com_4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz
+39 http GET http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz
+40 http 200 http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz
+41 silly lockFile 219e4117-f-babel-tower-of-babel-0-5-0-tgz http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz
+42 silly lockFile 219e4117-f-babel-tower-of-babel-0-5-0-tgz http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz
+43 silly lockFile 3bfef38b-tower-of-babel-0-5-0 tower-of-babel@0.5.0
+44 silly lockFile 3bfef38b-tower-of-babel-0-5-0 tower-of-babel@0.5.0
+45 silly lockFile 01e5dc10-tower-of-babel tower-of-babel@
+46 silly lockFile 01e5dc10-tower-of-babel tower-of-babel@
+47 silly resolved [ { name: 'tower-of-babel',
+47 silly resolved     version: '0.5.0',
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git://github.com/yosuke-furukawa/tower-of-babel.git' },
+47 silly resolved     license: 'MIT',
+47 silly resolved     bin: { 'tower-of-babel': './tower-of-babel.js' },
+47 silly resolved     preferGlobal: true,
+47 silly resolved     keywords: [ 'es6', 'babel', 'learn', 'tutorial', 'workshopper' ],
+47 silly resolved     dependencies:
+47 silly resolved      { 'babel-core': '5.6.20',
+47 silly resolved        'babel-runtime': '5.6.20',
+47 silly resolved        q: '^1.2.0',
+47 silly resolved        rimraf: '^2.3.2',
+47 silly resolved        'workshopper-adventure': '^3.4.5',
+47 silly resolved        'workshopper-exercise': '^2.3.0' },
+47 silly resolved     scripts: {},
+47 silly resolved     gitHead: 'fb913fa65f3822d7a06d441722f5d87f875fd907',
+47 silly resolved     description: 'tower-of-babel ================',
+47 silly resolved     bugs: { url: 'https://github.com/yosuke-furukawa/tower-of-babel/issues' },
+47 silly resolved     homepage: 'https://github.com/yosuke-furukawa/tower-of-babel#readme',
+47 silly resolved     _id: 'tower-of-babel@0.5.0',
+47 silly resolved     _shasum: '43b79628ee85ade94940a0870ed016669b6f93f7',
+47 silly resolved     _from: 'tower-of-babel@',
+47 silly resolved     _npmVersion: '3.0.0',
+47 silly resolved     _nodeVersion: '2.3.0',
+47 silly resolved     _npmUser: { name: 'yosuke-furukawa', email: 'yosuke.furukawa@gmail.com' },
+47 silly resolved     maintainers: [ [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '43b79628ee85ade94940a0870ed016669b6f93f7',
+47 silly resolved        tarball: 'http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'http://registry.tradesparq.com:4873/tower-of-babel/-/tower-of-babel-0.5.0.tgz' } ]
+48 info install tower-of-babel@0.5.0 into /usr/local/lib
+49 info installOne tower-of-babel@0.5.0
+50 verbose lib/node_modules/tower-of-babel unbuild
+51 verbose tar unpack /home/sirius/.npm/tower-of-babel/0.5.0/package.tgz
+52 silly lockFile 046742ca--lib-node-modules-tower-of-babel tar:///usr/local/lib/node_modules/tower-of-babel
+53 verbose lock tar:///usr/local/lib/node_modules/tower-of-babel /home/sirius/.npm/046742ca--lib-node-modules-tower-of-babel.lock
+54 silly lockFile 0112c03f-tower-of-babel-0-5-0-package-tgz tar:///home/sirius/.npm/tower-of-babel/0.5.0/package.tgz
+55 verbose lock tar:///home/sirius/.npm/tower-of-babel/0.5.0/package.tgz /home/sirius/.npm/0112c03f-tower-of-babel-0-5-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/local/lib/node_modules/tower-of-babel'
+57 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/tower-of-babel']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/local/lib/node_modules/tower-of-babel',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/local/lib/node_modules/tower-of-babel',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 4.1.6-201.fc22.x86_64
+60 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "tower-of-babel" "-g"
+61 error cwd /home/sirius/Workspace/playground/tower-of-babel
+62 error node -v v0.10.40
+63 error npm -v 1.4.28
+64 error path /usr/local/lib/node_modules/tower-of-babel
+65 error fstream_path /usr/local/lib/node_modules/tower-of-babel
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/tower-of-babel'
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]
